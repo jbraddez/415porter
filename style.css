@@ -134,6 +134,11 @@ hr{
     scale: 2;
     filter: blur(3px) drop-shadow(0 0 1rem #ffffff4b);
 }
+
+.snare{
+    opacity: 0.4;
+}
+
 @media screen and (max-width:768px){
     .snare{
         scale: 1.3;
