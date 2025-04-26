@@ -124,43 +124,11 @@ hr{
 }
 
 
-
-.stick{
-    position: absolute;
-    z-index: -1;
-    top: 50%;
-    scale: 2;
-    filter: blur(3px) drop-shadow(0 0 1rem #ffffff4b) brightness(0.2);
-}
-
-.snare{
-    opacity: 0.2;
-    filter: blur(3px) drop-shadow(0 0 1rem #ffffff4b);
-}
-
-@media screen and (max-width:768px){
-    .snare{
-        scale: 1.3;
-    transform: translateY(-10%);
-}
-    }
 @media screen and (max-width:649px){
-.snare{
-    scale: 1;
-    transform: translateY(-20%);
-}
 .releases iframe{
     margin: 0.5rem 0;
     padding: 0 0.5rem;
 }
-}
-
-#stick1{
-    transform: translateX(45%) rotate(38deg);
-}
-#stick2{
-    transform: translate(-45%,3rem) rotateY(180deg) rotate(38deg);
-     
 }
 
 .selected + iframe{
@@ -227,7 +195,7 @@ hr{
 
 #signup{
     font-family: "Raleway", "Poppins", serif;
-    margin: 1rem 0 -0.5rem 1.5rem;
+    margin: 1rem 0 0 1.5rem;
 }
 
 #listeon{
