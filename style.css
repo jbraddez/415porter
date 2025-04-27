@@ -29,7 +29,7 @@ body{
     max-height: 100svh;
     height: max-content;
     aspect-ratio: 0.84 !important;
-    background-image: url(/images/hero2.jpeg);
+    background-image: url(/images/hero.jpeg);
     background-size: cover;
     background-position: center;
 }
@@ -114,25 +114,14 @@ hr{
 .releases iframe{
     display: none;
     height: 5rem;
-    width: 100%;
+    flex: 1;
     margin: 0 1.5rem;
 }
-@media screen and (min-width:650px){
-    .card:hover iframe, .card.selected iframe{
+
+@media screen and (min-width:570px){
+    .selected iframe{
         display: block;
     }
-}
-
-
-@media screen and (max-width:649px){
-.releases iframe{
-    margin: 0.5rem 0;
-    padding: 0 0.5rem;
-}
-}
-
-.selected + iframe{
-    display: block;
 }
 
 .socials{
