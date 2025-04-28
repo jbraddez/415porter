@@ -124,6 +124,10 @@ hr{
     }
 }
 
+section{
+    margin: 1rem 0;
+}
+
 .socials{
     height: 3rem;
     display: flex;
