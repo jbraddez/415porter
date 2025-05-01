@@ -116,6 +116,10 @@ hr{
     height: 5rem;
     flex: 1;
     margin: 0 1.5rem;
+} 
+
+h2,.title{
+    text-align: center;
 }
 
 @media screen and (min-width:570px){
