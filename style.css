@@ -47,6 +47,8 @@ body{
     z-index: 1;
 }
 
+h1 font{font-family: "Lora", serif;}
+
 h1{
     font-family: "Lora", serif;
     font-weight: 700;
