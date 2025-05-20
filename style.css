@@ -250,6 +250,16 @@ section{
 #openPoster img{
     max-width: calc(100% - 1rem);
     max-height: 90vh;
+    animation: openPoster 250ms linear;
+}
+
+@keyframes openPoster{
+    0%{
+        scale: 0;
+    }
+    100%{
+        scale: 1;
+    }
 }
 
 #closePoster{
