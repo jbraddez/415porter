@@ -10,3 +10,21 @@ cards.forEach((card)=>{
     });
 })
 
+
+const openPosterCont = document.getElementById('openPoster');
+const openPosterImg = document.getElementById('openPosterImg');
+let posterOpen;
+function openPoster(imgPath){
+    openPosterCont.style.display = 'flex';
+    openPosterImg.src = '/images/posters/' + imgPath;
+    posterOpen = true;
+}
+
+function closePoster(){
+    openPosterCont.style.display = 'none';
+    posterOpen = false;
+}
+
+openPosterCont.addEventListener('click', (e) => {
+    if (e.target === openPosterCont) closePoster();
+});

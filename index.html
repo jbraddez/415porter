@@ -159,7 +159,7 @@
             <h2>Upcoming Events</h2>
             <hr>
 
-            <div class="posterCard card">
+            <div onclick="openPoster('may25.JPG')" class="posterCard card">
               <div class="poster">
                 <img src="/images/posters/may25.JPG" alt="May 25th, TAMED PSYCHOTIC hosts an in person popup in Costa Mesa, California with live music from Porter Bliquez and Chevalier. Doors open 11am to 6pm.">
               </div>
@@ -175,7 +175,7 @@
                 </div>
               </div>
             </div>
-            
+
         </section>
 
         <section class="releases merch">
@@ -219,6 +219,11 @@
             </a>
         </div>
     </main>
+
+    <div id="openPoster">
+      <img id="openPosterImg" src="" alt="Porter Bliquez Event Poster">
+      <button onclick="closePoster()" id="closePoster"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></button>
+    </div>
 
     <script src="/script.js"></script>
 </body>
