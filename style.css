@@ -161,6 +161,14 @@ section{
     border: 1px solid #d0d1d05b;
 }
 
+.socials.listen{
+    margin-bottom: 0;
+}
+#listenon{
+    margin: 0.25rem 0;
+    margin-top: 3rem;
+}
+
 .socials a{
     height: 100%;
 }
@@ -196,9 +204,7 @@ section{
     border-radius: 0.2rem;
 }
 
-#listenon{
-    margin: 0.5rem 0;
-}
+
 
 .emailsignup{
     width: 100%;
@@ -214,9 +220,7 @@ section{
     margin: 1rem 0 0 1.5rem;
 }
 
-#listeon{
-    margin-top: 1rem;
-}
+
 
 .text{
     flex: 1;
