@@ -75,6 +75,7 @@ main{
     padding: 1rem;
     border-bottom: 1px solid #d0d1d05f;
     transition: 300ms;
+    text-decoration: none;
 }
 
 .card img{
