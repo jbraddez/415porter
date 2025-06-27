@@ -163,11 +163,9 @@ section{
 
 .socials.listen{
     margin-bottom: 0;
+    margin-top: 2rem;
 }
-#listenon{
-    margin: 0.25rem 0;
-    margin-top: 3rem;
-}
+
 
 .socials a{
     height: 100%;
@@ -185,6 +183,7 @@ section{
     max-width: 800px;
     margin: 2rem auto;
     padding: 0 0.5rem;
+    margin-top: 0;
 }
 
 .musicvideo{
@@ -203,8 +202,6 @@ section{
     flex: 1;
     border-radius: 0.2rem;
 }
-
-
 
 .emailsignup{
     width: 100%;
