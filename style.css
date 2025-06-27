@@ -181,9 +181,8 @@ section{
     aspect-ratio: 2/1 !important;
     width: 100%;
     max-width: 800px;
-    margin: 2rem auto;
+    margin: 0 auto 2rem;
     padding: 0 0.5rem;
-    margin-top: 0;
 }
 
 .musicvideo{
@@ -214,7 +213,7 @@ section{
 
 #signup{
     font-family: "Raleway", "Poppins", serif;
-    margin: 1rem 0 0 1.5rem;
+    margin: 2rem 0 0 1.5rem;
 }
 
 
